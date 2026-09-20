@@ -1,0 +1,18 @@
+{
+  "config": {
+    "race_length_s": 7200,
+    "tank_size_l": 100.0,
+    "fuel_per_lap_l": 3.1,
+    "reserve_l": 2.0,
+    "gtd_laptime_s": 100.0,
+    "gtp_laptime_s": 94.0,
+    "gtp_pitstop_s": 55.0,
+    "gtp_stops_remaining": 1
+  },
+  "events": [
+    {"t": 3005,  "do": "fuel_sync", "litres": 5.8},
+    {"t": 3010,  "do": "pit", "fuel": 51.6, "tyres": true, "repair": 0},
+    {"t": 3600,  "do": "gtp_pitted"},
+    {"t": 4760,  "do": "pit", "fuel": 79.5, "tyres": true, "repair": 0}
+  ]
+}
